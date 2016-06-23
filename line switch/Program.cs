@@ -9,8 +9,10 @@ namespace line_switch
     class Program
     {
         static void Main(string[] args)
-        {
+        {           
             Console.WriteLine("How many lines?");
+            string x = Console.ReadLine();
+            int line = Convert.ToInt32(x);
         }
     }
 }
