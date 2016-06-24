@@ -8,24 +8,22 @@ namespace line_switch
 {
     class Program
     {
-        public void wordBuilder()      //building a method to create multiple string
-        {
-
-        }
-
         static void Main(string[] args)
         {           
-            Console.WriteLine("How many lines?");  //building the matrix
+            Console.WriteLine("How many rows?");  //building the matrix
             string x = Console.ReadLine();
-            int line = Convert.ToInt32(x);
+            int row = Convert.ToInt32(x);
 
-            int counter = 0;
-            int k = 0;
+            Console.WriteLine("How many columns?");
+            string x2 = Console.ReadLine();
+            int column = Convert.ToInt32(x2);
 
-            while (counter < line)
-            {
-                
-            }
+            string[,] wordBox = new string[row, column];
+
+            Console.ReadKey();
+
+
+        
 
         }
     }
