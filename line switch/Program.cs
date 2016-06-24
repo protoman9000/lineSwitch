@@ -10,9 +10,11 @@ namespace line_switch
     {
         static void Main(string[] args)
         {           
-            Console.WriteLine("How many lines?");
+            Console.WriteLine("How many lines?");  //building the matrix
             string x = Console.ReadLine();
             int line = Convert.ToInt32(x);
+
+            int k = 0;
         }
     }
 }
