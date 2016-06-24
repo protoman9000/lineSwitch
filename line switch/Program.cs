@@ -20,21 +20,15 @@ namespace line_switch
 
             string[,] wordBox = new string[row, column];
 
-            for (int i = 0; i > row; i++)
+            for (int i = 0; i < row; i++)
             {
-                for (int k = 0; k > column; k++)
+                for (int k = 0; k < column; k++)
                 {
-                    Console.WriteLine("Enter a character");
+                    Console.WriteLine("Enter a character"); //adding it it
                     wordBox[i, k] = Console.ReadLine();
                 }
             }
-
-
                 Console.ReadKey();
-
-
-        
-
         }
     }
 }
