@@ -40,6 +40,14 @@ namespace line_switch
                 Console.WriteLine(Environment.NewLine);            
             }
 
+            for (int i = 0; i < column; i++)   //switch the matrix
+            {
+                for (int k = 0; k < row; k++)
+                {
+                    Console.Write(wordBox[k, i]);
+                }
+                Console.WriteLine(Environment.NewLine);
+            }
 
                 Console.ReadKey();
         }
