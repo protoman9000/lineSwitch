@@ -28,6 +28,19 @@ namespace line_switch
                     wordBox[i, k] = Console.ReadLine();
                 }
             }
+
+
+            for (int i = 0; i < row; i++)
+            {
+                for (int k = 0; k < column; k++)
+                {
+                    Console.WriteLine(wordBox[i, k]);
+                    if (k >= column)
+                        Console.WriteLine(Environment.NewLine);
+                }
+            }
+
+
                 Console.ReadKey();
         }
     }
