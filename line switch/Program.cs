@@ -29,15 +29,15 @@ namespace line_switch
                 }
             }
 
+            Console.WriteLine(Environment.NewLine);  
 
-            for (int i = 0; i < row; i++)
+            for (int i = 0; i < row; i++)                   //prints out the original matrix
             {
                 for (int k = 0; k < column; k++)
                 {
-                    Console.WriteLine(wordBox[i, k]);
-                    if (k >= column)
-                        Console.WriteLine(Environment.NewLine);
+                    Console.Write(wordBox[i, k]);                       
                 }
+                Console.WriteLine(Environment.NewLine);            
             }
 
 
